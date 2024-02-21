@@ -1,0 +1,157 @@
+<html lang="en">
+    <!--Head, Title-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="/css/global.css" rel="stylesheet">
+
+  <title>Utah Visitors Page</title>
+
+  <style>
+    table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            box-shadow: 20px 50px 0px 0px #001f4e;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #wikipedia {
+          color: #001f4e;
+          font-size: medium;
+        }
+  </style>
+
+</head>
+
+<!--Header, Relevant img, Alt Text-->
+<body>
+  
+  <header id="top-header">
+    <a class="navbar-brand" href="index.html"><img src="/images/Seal_of_Utah.svg.png" alt="Utah Greetings"
+        width="85px" height="85px">
+      <p>The State of Utah</p>
+    </a>
+  </header>
+
+  <!--Navbar, Unordered list-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html"><b>Utah Homepage</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Cities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/Moab.html">Moab</a></li>
+              <li><a class="dropdown-item" href="/ParkCity.html">Park City</a></li>
+              <li><a class="dropdown-item" href="/SaltLakeCity.html">Salt Lake City - Capital</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Contact Us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Main, Aside and Section Attributes-->
+  <main>
+    <section>
+      <div class="hero-image">
+        <img src="/images/SLC.jpg" class="heroimg" alt="Utah">
+  
+        <aside class="top-left-box">
+          <p>
+            "Salt Lake City: Where History Meets Majesty, Capital of Adventure."
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="table" id="activity-section">
+
+      <h3 style="text-align: center;"><b>SLC, Utah</b></h3>
+      <div class="activity-links">
+        <table>
+          <caption>More information <a href="https://en.wikipedia.org/wiki/Salt_Lake_City" id="wikipedia" target="_blank">here</a></caption>
+          <tr>
+              <th>Category</th>
+              <th>Information</th>
+          </tr>
+          <tr>
+              <td>Population</td>
+              <td>Approximately 200,000 people (city proper); over 1.2 million people (metropolitan area)</td>
+          </tr>
+          <tr>
+              <td>Classification</td>
+              <td>Capital City</td>
+          </tr>
+          <tr>
+              <td>Region</td>
+              <td>North-Central Utah, Wasatch Front</td>
+          </tr>
+          <tr>
+              <td>Average Income Level</td>
+              <td>Around $55,000 - $60,000 annually</td>
+          </tr>
+          <tr>
+              <td>Year Incorporated</td>
+              <td>January 6, 1851</td>
+          </tr>
+      </table>
+      </div>
+
+    </section>
+
+    <!--Ordered list-->
+    <section id="top3attractions">
+      <h3 style="font-weight: bold;">Top 3 Attractions</h3>
+      <ol>
+        <li>Temple Square</li>
+        <li>Big Cottonwood Canyon</li>
+        <li>Utah State Capitol</li>
+      </ol>
+      <a href="https://www.tripadvisor.com/Attractions-g60922-Activities-Salt_Lake_City_Utah.html" target="_blank" style="color: #bf0c0c;">Learn more</a>
+    </section>
+
+      <footer>
+        <ul>
+          <li>
+            <p>&copy; 2024 Utah State. All Rights Reserved.</p>
+          </li>
+          <li>
+            <p>Privacy Policy</p>
+          </li>
+          <li>
+            <p>Terms of Service</p>
+          </li>
+        </ul>
+      </footer>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+ 
+
+</body>
+</html>
